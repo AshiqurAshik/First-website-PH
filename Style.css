@@ -231,3 +231,35 @@ nav li a{
 .customer-name p{
   font-size: 16px;
 }
+
+/* Offer Section */
+
+.offer-page{
+  margin: 130px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 70px 150px;
+  background-color: white;
+  text-align: center;
+  border-radius: 14px;
+}
+
+.offer-page h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.offer-page p{
+  opacity: 0.5;
+}
+
+.offer-page button{
+  border: none;
+}
+
+.offer-page img{
+  border-radius: 48px;
+}
