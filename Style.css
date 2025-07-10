@@ -1,0 +1,53 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/* Shared class */
+
+.inter-font{
+    font-family: 'Inter', sans-serif;
+}
+
+.raleway-font{
+    font-family: 'Raleway', sans-serif;
+}
+
+.basic-btn{
+  padding: 12px 36px;
+  background-color: #4E47FF;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Navbar Section */
+
+nav{
+
+  margin: 50px 150px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #4E47FF;
+}
+
+.logo-txt{
+  font-size: 34px;
+  font-weight: 900;
+}
+
+/* ***********page-1********* */
