@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Raleway', sans-serif;
+  background-color: 	#F0F0F0;
 }
 /* Shared class */
 
@@ -157,4 +158,76 @@ nav li a{
   font-size: 20px;
   opacity: 0.5;
   text-align: center;
+}
+
+/* review page */
+
+.review-page{
+  margin: 140px 150px;
+
+
+}
+
+.review-page h1{
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 50px;
+}
+
+.all-review{
+  display: flex;
+  justify-content: space-between;
+}
+
+.review{
+  background-color: white;
+  padding: 25px;
+  width: 370px;
+  border-radius: 14px;
+}
+
+.images ul{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  list-style: none;
+}
+
+.images, .review p{
+  margin-bottom: 25px;
+}
+
+.review h2{
+  margin-bottom: 15px;
+}
+
+.customer-info{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.customer-info img{
+  border-radius: 50%;
+}
+
+.customer-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 5px;
+
+}
+
+.customer-name h6{
+  color: #757575;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.customer-name p{
+  font-size: 16px;
 }
