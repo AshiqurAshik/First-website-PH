@@ -85,3 +85,39 @@ nav li a{
   color: #252432;
   text-align: center;
 }
+
+/* Action page */
+
+.action-page{
+  margin: 115px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.action-txt h2{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+}
+
+.action-txt p{
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  width: 70%;
+}
+
+.action-txt button{
+  border: none;
+  width:250px ;
+}
+
+.action-img img{
+  border-radius: 48px;
+}
